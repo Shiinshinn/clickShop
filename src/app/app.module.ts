@@ -46,11 +46,15 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { ProductsHeaderComponent } from './components/products/products-header/products-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    LandingPageComponent,
+    ProductsHeaderComponent
   ],
   imports: [
     BrowserModule,
